@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+#header {
+    background: #444;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#header a:hover {
+    color: #ccc;
+}
+
+h1, h2, h3 {
+    color: #444;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #eee;
+    color: #444;
+    margin-top: 30px;
+}
+
+img {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+main, .section {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+}
+
+.button, input[type="submit"] {
+    background: #bbb;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover, input[type="submit"]:hover {
+    background: #888;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px auto;
+    max-width: 500px;
+    background: #fff;
+    padding: 10px;
+}
+.portfolio-item img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+.portfolio-item p {
+    margin: 0;
+    color: #444;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    main, .section {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    #header a {
+        margin: 0 5px;
+    }
+}
